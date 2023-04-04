@@ -2,11 +2,12 @@ import React from "react";
 import Greet from "./Greet";
 import Jsx from "./Jsx";
 import State from "./State";
+import Message from "./Message";
 // import {Greet} from "./Greet"  //use for named export
 
 const App = () => {
   return (
-    <div className="bg-stone-900 flex flex-col justify-center items-center  h-[100vh] text-white text-2xl">
+    <div className="bg-stone-900 flex flex-col justify-center items-center text-white text-2xl">
       <h1 className="text-3xl">Hello world in React.js</h1>
       <Greet fname="jay" lname="bhogayata" />
       <Greet fname="john" lname="doe">
@@ -21,7 +22,9 @@ const App = () => {
         <p>this is children prop</p>
       </Greet>
       <State />
+
       {/* <Jsx /> */}
+      <Message />
     </div>
   );
 };
