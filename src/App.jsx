@@ -1,12 +1,13 @@
 import React from "react";
 import Greet from "./Greet";
 import Jsx from "./Jsx";
+import State from "./State";
 // import {Greet} from "./Greet"  //use for named export
 
 const App = () => {
   return (
-    <div className="bg-stone-900 h-[100vh] text-white text-2xl">
-      <h1>Hello world</h1>
+    <div className="bg-stone-900 flex flex-col justify-center items-center  h-[100vh] text-white text-2xl">
+      <h1 className="text-3xl">Hello world in React.js</h1>
       <Greet fname="jay" lname="bhogayata" />
       <Greet fname="john" lname="doe">
         <button
@@ -16,9 +17,10 @@ const App = () => {
           Click Me
         </button>
       </Greet>
-      <Greet fname="linus" lanme="torvalds">
+      <Greet fname="linus" lname="torvalds">
         <p>this is children prop</p>
       </Greet>
+      <State />
       {/* <Jsx /> */}
     </div>
   );
