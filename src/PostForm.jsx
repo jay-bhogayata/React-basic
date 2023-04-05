@@ -23,8 +23,10 @@ const PostForm = () => {
   };
   return (
     <div className="">
-      <form className="space-y-5" onSubmit={handleSubmit}>
-        <label htmlFor="uname">username</label>
+      <form className="space-y-5 text-black" onSubmit={handleSubmit}>
+        <label htmlFor="uname" className="text-purple-500">
+          username
+        </label>
         <input
           type="text"
           name="uname"
@@ -33,7 +35,9 @@ const PostForm = () => {
           onChange={(e) => setUname(e.target.value)}
         />
         <br />
-        <label htmlFor="age">age</label>
+        <label htmlFor="age" className="text-purple-500">
+          age
+        </label>
         <input
           type="number"
           name="age"

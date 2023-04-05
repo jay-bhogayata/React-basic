@@ -35,13 +35,13 @@ const Form = () => {
           className="text-white  text-center"
           onChange={(e) => setRvalue(e.target.value)}
         >
-          <label for="india">India</label>
+          <label htmlFor="india">India</label>
           <input type="radio" name="country" value="india" />
           <br />
-          <label for="USA">USA</label>
+          <label htmlFor="USA">USA</label>
           <input type="radio" name="country" value="USA" />
           <br />
-          <label for="other">other</label>
+          <label htmlFor="other">other</label>
           <input type="radio" name="country" value="other then india or usa " />
         </div>
         <button
