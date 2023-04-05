@@ -5,6 +5,8 @@ import State from "./State";
 import Message from "./Message";
 import ClickHandler from "./ClickHandler";
 import ParentComponent from "./ParentComponent";
+import ConditinolRendering from "./ConditinolRendering";
+import ListRender from "./ListRender";
 // import {Greet} from "./Greet"  //use for named export
 
 const App = () => {
@@ -29,6 +31,8 @@ const App = () => {
       <Message />
       <ClickHandler />
       <ParentComponent />
+      <ConditinolRendering />
+      <ListRender />
     </div>
   );
 };
