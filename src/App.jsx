@@ -3,6 +3,7 @@ import Greet from "./Greet";
 import Jsx from "./Jsx";
 import State from "./State";
 import Message from "./Message";
+import ClickHandler from "./ClickHandler";
 // import {Greet} from "./Greet"  //use for named export
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
 
       {/* <Jsx /> */}
       <Message />
+      <ClickHandler />
     </div>
   );
 };
