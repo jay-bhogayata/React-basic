@@ -8,12 +8,15 @@ import ParentComponent from "./ParentComponent";
 import ConditinolRendering from "./ConditinolRendering";
 import ListRender from "./ListRender";
 import Form from "./Form";
+import PostList from "./PostList";
+import PostForm from "./PostForm";
 // import {Greet} from "./Greet"  //use for named export
 
 const App = () => {
   return (
     <div className="bg-stone-900 flex flex-col justify-center items-center text-white text-2xl">
       <h1 className="text-3xl">Hello world in React.js</h1>
+      {/*
       <Greet fname="jay" lname="bhogayata" />
       <Greet fname="john" lname="doe">
         <button
@@ -27,14 +30,16 @@ const App = () => {
         <p>this is children prop</p>
       </Greet>
       <State />
-
-      {/* <Jsx /> */}
+<Jsx />}
       <Message />
       <ClickHandler />
       <ParentComponent />
       <ConditinolRendering />
       <ListRender />
       <Form />
+    */}
+      {/* <PostList /> */}
+      <PostForm />
     </div>
   );
 };
