@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const State = () => {
   const [count, setCount] = useState(0);
   return (
-    <div className="bg-gray-900 w-1/3  border-pink-300 border-2 rounded-lg text-center mt-10">
+    <div className="bg-gray-900  border-pink-300 border-2 rounded-lg text-center mt-10">
       <button
         type="button"
         className="

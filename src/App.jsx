@@ -7,6 +7,7 @@ import ClickHandler from "./ClickHandler";
 import ParentComponent from "./ParentComponent";
 import ConditinolRendering from "./ConditinolRendering";
 import ListRender from "./ListRender";
+import Form from "./Form";
 // import {Greet} from "./Greet"  //use for named export
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
       <ParentComponent />
       <ConditinolRendering />
       <ListRender />
+      <Form />
     </div>
   );
 };
