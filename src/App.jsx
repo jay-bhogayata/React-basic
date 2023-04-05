@@ -4,6 +4,7 @@ import Jsx from "./Jsx";
 import State from "./State";
 import Message from "./Message";
 import ClickHandler from "./ClickHandler";
+import ParentComponent from "./ParentComponent";
 // import {Greet} from "./Greet"  //use for named export
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
       {/* <Jsx /> */}
       <Message />
       <ClickHandler />
+      <ParentComponent />
     </div>
   );
 };
