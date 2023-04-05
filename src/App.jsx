@@ -10,6 +10,7 @@ import ListRender from "./ListRender";
 import Form from "./Form";
 import PostList from "./PostList";
 import PostForm from "./PostForm";
+import UseTransition from "./UseTransition";
 // import {Greet} from "./Greet"  //use for named export
 
 const App = () => {
@@ -38,8 +39,10 @@ const App = () => {
       <ListRender />
       <Form />
     */}
-      {/* <PostList /> */}
+      {/* <PostList /> 
       <PostForm />
+      */}
+      <UseTransition />
     </div>
   );
 };
